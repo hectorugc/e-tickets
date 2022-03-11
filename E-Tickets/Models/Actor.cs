@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using E_Tickets.Data.Base;
 
 namespace E_Tickets.Models
 {
-    public class Actor
+    public class Actor : IEntityBase
     {
         public Actor() { }
 
